@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Exemple Assurance</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="./img/favicon.png" rel="icon">
+  <link href="./img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="./vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="./vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="./css/style.css" rel="stylesheet">
+
+ 
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="">
+    <div class="container d-flex align-items-center justify-content-between">
+
+        <img src="./img/logo5.png">
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Accueil</a></li>
+          
+          
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+<!-- End Hero -->
+
+  <main id="main">
+
+
+ 
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+         <h2>Formulaire</h2>
+         <br>
+          <p>Veuillez remplir tous les champs du formulaire</p>
+        </div>
+
+        <div class="row">
+        <div class="col">
+            <form action="forms/formm.php" method="post" role="form" class="php-email-form">
+
+              <div class="row">
+                <div class="col-md-6 form-group">
+                <input type="text" name="nom" class="form-control" id="nom" placeholder="Nom"required >
+                </div>
+                
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="text" name="prenom" class="form-control" id="prenom" placeholder="Prénom"required>
+                </div>
+        </div>
+
+                <br>
+        <div class="row">
+                <div class="col-md-6 form-group">
+                <input type="text" name="phone" class="form-control" id="phone" placeholder="Numéro Tel"required  minlength="10" maxlength="10">
+                </div>
+                
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email"required>
+                </div>
+        </div>
+
+              
+              <br>
+        <div class="row">
+                <div class="col-md-6 form-group">
+                <input type="date" name="dob" class="form-control" id="dob" placeholder="Date de naissance"required>
+                </div>
+                
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                <select name="insurance" id="insurance" class="form-select"required>
+                <option selected>Votre Assurance Actuel</option>
+                
+                <option>ASSURÉ</option>
+                <option>Active ASSURANCES</option>
+               <option>AREAS ASSURANCES</option>
+               <option>AXA</option>
+               <option>ASSU 2000</option>
+               <option>Allianz</option>
+               <option>BONUS50</option>
+               <option>BEST</option>
+               <option>Covéa (MAAF, MMA, GMF)</option>
+               <option>Crédit Agricole Assurances</option>
+               <option>DIRECT ASSURANCE</option>
+              <option>Groupama</option>
+              <option>Groupe Maif</option>
+              <option>Groupe des Assurances du Crédit mutuel</option>
+              <option>Groupe Matmut</option>
+              <option>Generali</option>
+              <option>Macif</option>
+              <option>Autre ASSURANCE</option>
+               </select>
+                 
+                </div>
+        </div>
+              
+              <div class="form-group mt-3">
+              <input type="text" name="address" class="form-control" id="address" placeholder="Adresse"required>
+              </div>
+
+              <br>
+              <h6><h7>*</h7>La résolution de la photo doit être suffisante pour transmettre clairement les informations de la session d'image</h6><br>
+              <div class="row">
+                    <div class="col">
+                      <div class="mb-3">
+                        
+                       <label for="formFileSm" class="form-label">Carte d'identité:</label>
+                       <div class="tooltip-container">
+                        <i class="info-icon material-icons">info</i>
+                        <div class="tooltip-content">
+                          <p>exemple d'image :<img src="./img/info1.jpeg" ><br><br> <img src="./img/info5.jpg" ></p>
+                        </div>
+                      </div>
+                  
+                       
+                      <input class="form-control form-control-sm" name="id_card" id="id_card" type="file"required><br>
+                      <label for="formFileSm" class="form-label">Carte d'identité verso :</label>
+                      <input class="form-control form-control-sm" name="id_card_vr" id="id_card_vr" type="file"required>
+                       </div>
+                      </div>
+                <div class="col"><div class="mb-3">
+                       <label for="formFileSm" class="form-label">Carte grice :</label>
+                       <div class="tooltip-container">
+                        <i class="info-icon material-icons">info</i>
+                        <div class="tooltip-content">
+                          <p>exemple d'image :<img src="./img/info2.jpg" ></p>
+                        </div>
+                      </div>
+
+
+                      <input class="form-control form-control-sm" name="driving_license" id="driving_license" type="file"required>
+                      
+                 </div></div>
+                 </div>
+
+                 
+      
+                 
+
+
+
+                <div class="row">
+                <div class="col"><div class="mb-3">
+                    <label for="formFileSm" class="form-label">photo enface de la voiture :</label>
+                    <div class="tooltip-container">
+                      <i class="info-icon material-icons">info</i>
+                      <div class="tooltip-content">
+                        <p>exemple d'image :<img src="./img/info3.jpg" ></p>
+                      </div>
+                    </div>
+
+
+
+                     <input class="form-control form-control-sm" name="photo" id="photo" type="file"required>
+                   </div></div>
+                <div class="col"><div class="mb-3">
+                <label for="formFileSm" class="form-label">Carte vert :</label>
+                <div class="tooltip-container">
+                  <i class="info-icon material-icons">info</i>
+                  <div class="tooltip-content">
+                    <p>exemple d'image :<img src="./img/info4.jpg" ></p>
+                  </div>
+                </div>
+
+
+
+
+                 <input class="form-control form-control-sm" name="green_card" id="green_card" type="file"required>
+                  </div></div>
+            </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="message"></textarea>
+              </div><br>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message">merci</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message">merci</div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+
+                 
+             <h6><h7>*</h7> Vos données seront protégées conformément aux lois sur la protection des données.</h6>
+              
+              <div class="text-center"><button  type="submit">Envoyer</button></div>
+            </form>
+          </div>
+          
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+ 
+
+ 
+  
+
+
+   
+
+  </main><!-- End #main -->
+
+ 
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          <strong><span>IT Service</span></strong>. Welcome
+        </div>
+        
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="index.html" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="index.html" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="index.html" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="index.html" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="index.html" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="./vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="./vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="./vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
